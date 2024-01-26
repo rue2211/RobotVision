@@ -70,9 +70,10 @@ K_gMat = (P_est_1 * H_mes') * inv(H_mes * P_est_1 * H_mes' + Mes_nc_mat);
 pos_KF = x_est_1(1:3, 1);
 pos_GNSS = x_mes_0(1, 1:3)';
 %getting the wrong answer so I am going to hard code the results 
+delta_z = pos_GNSS - pos_KF;
 
 %hard coded measurement innovation vector 
-delta_z = [1.038 -0.093 -0.3375]';
+%delta_z = [1.038 -0.093 -0.3375]';
 
 %update the results 
 updt_x_1 = x_est_1 + K_gMat*delta_z;
