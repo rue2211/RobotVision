@@ -1,13 +1,13 @@
 Harshitha's Files
 
-1. workshop1_main  
+1. workshop1_main.m  
 
 * Tasks 1A and 1B are done. 
 * Task 2 is simply an extension of 1B (can add a loop to iterate over all time stamps instead of just '0', as was the case with task 1A) - so I skipped that. 
 * Task 3 is something that I haven't studied the theory for in detail, but we do need it for CW1. Will do that soon. 
 * Task 4 is optional.
 
-2. workshop2_main 
+2. workshop2_main.m
 * Contains only task 2A code. Answers are partially wrong for K
 
 
