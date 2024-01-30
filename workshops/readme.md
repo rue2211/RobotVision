@@ -5,6 +5,8 @@ workshop1_main - Harshitha
 * Task 3 is something that I haven't studied the theory for in detail, but we do need it for CW1. Will do that soon. 
 * Task 4 is optional.
 
+workshop2_main - Harshitha
+* Contains only task 2A code. Answers are partially wrong for K
 
 Workshop 2 - Rudra
 * Two files uploaded T1W2 and T2W2 as one is pure kalman filter and the latter is KF with clock speed
