@@ -19,6 +19,10 @@ function results = W3Task1Results,('Workshop3_Speed_Heading.csv');
     latitude(1) = initial_latitude;
     longitude(1) = initial_longitude;
 
+    %North and east velocity at time 0
+    v_N(1) = data(1, 2) * cos(deg2rad(data(1, 3))); 
+    v_E(1) = data(1, 2) * sin(deg2rad(data(1, 3))); 
+
     for k = 2:size(data, 1)
         %Calculate average velocity
         avg_v_N = 0.5 * data(k, 2) * (cos(deg2rad(data(k, 3))) + cos(deg2rad(data(k-1, 3))));
