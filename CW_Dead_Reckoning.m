@@ -66,7 +66,7 @@ for k = 1:851
  end
 
  % Heading weight (smoothened heading)
- w = (1 + (0.01+0.001) * DR_inputs(k+1,6)*rad_to_deg + 0.0002*rad_to_deg)*0.5/4;
+ w = ((3*10^-6)*(heading) * 0.5)/4*deg_to_rad;
  heading_c = w*DR_inputs(k+1,7)*deg_to_rad +(1-w)*(heading+t*omega);
 
  %compute the overall speed
